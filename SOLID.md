@@ -38,3 +38,7 @@ Uma refatoração não deve influenciar em nada no funcionamento.
 - Como realizar uma refatoração no nosso sistema, para aplicar o SRP;  
 - Como extrair uma classe.  
 
+O Open Closed Principle, embora complexo em sua definição, é muito útil e pertinente.
+O que podemos fazer para garantir que nosso sistema seja extensível da forma correta?
+Garantir que cada ação/responsabilidade esteja na classe correta 
+Esta é uma das formas de garantir que o sistema seja extensível.
