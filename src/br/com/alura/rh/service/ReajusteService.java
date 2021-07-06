@@ -20,6 +20,6 @@ public class ReajusteService {
 
         BigDecimal salarioAtualizado = salario.add(aumento);
 
-        funcionario.reajustarSalario(salarioAtualizado);
+        funcionario.atualizarSalario(salarioAtualizado);
     }
 }
