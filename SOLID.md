@@ -38,6 +38,8 @@ Uma refatoração não deve influenciar em nada no funcionamento.
 - Como realizar uma refatoração no nosso sistema, para aplicar o SRP;  
 - Como extrair uma classe.  
 
+## 03. Reduzindo o acoplamento
+
 O Open Closed Principle, embora complexo em sua definição, é muito útil e pertinente.
 O que podemos fazer para garantir que nosso sistema seja extensível da forma correta?
 Garantir que cada ação/responsabilidade esteja na classe correta 
@@ -48,3 +50,18 @@ Esta é uma das formas de garantir que o sistema seja extensível.
 - Isso significa que devemos poder criar novas funcionalidades e estender o sistema sem precisar modificar muitas classes já existentes  
 - Uma classe que tende a crescer "para sempre" é uma forte candidata a sofrer alguma espécie de refatoração.  
 
+## 04. Herança indesejada
+
+Sabemos que, ao estender uma classe através da herança, devemos sempre respeitar os contratos (interfaces) de seus métodos.  
+Por que nossa classe Terceirizado estava estendendo de forma indesejada um comportamento?  
+Porque estava herdando métodos que não faziam sentido para ela  
+Alguns métodos herdados não deveriam existir nessa classe.  
+
+Qual seria uma alternativa quando a herança não fizer sentido?  
+Utilizar composição.  
+Essa é uma das maneiras de evitar a herança sem duplicação de código.
+
+Nesta aula, aprendemos:
+
+- Que, embora a herança favoreça o reaproveitamento de código, ela pode trazer efeitos colaterais quando não utilizada da maneira correta;
+- Que o Princípio de Substituição de Liskov (LSP) diz que devemos poder substituir classes base por suas classes derivadas em qualquer lugar, sem problema.  
