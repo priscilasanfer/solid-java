@@ -2,8 +2,8 @@
 
 ## SOLID com Java: Princípios da programação orientada a objetos
 
-Formação: https://cursos.alura.com.br/formacao-arquitetura-design-projetos-java
-Curso https://cursos.alura.com.br/course/solid-orientacao-objetos-java  
+Formação: https://cursos.alura.com.br/formacao-arquitetura-design-projetos-java.   
+Curso https://cursos.alura.com.br/course/solid-orientacao-objetos-java    
   
 Conteudo:
 - Aprenda conceitos avançados de orientação a objetos
